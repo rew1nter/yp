@@ -1,5 +1,9 @@
 # yp
 
+You can provide as many IPv4 addresses as you want and get them converted to binary format.
+
+
+# Usage
 
 yp -h
 ```
