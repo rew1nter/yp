@@ -1,16 +1,11 @@
 # yp
 
-You can provide as many IPv4 addresses as you want and get them converted to binary format.
-
-
-# Usage
-
-yp -h
 ```
-It'll take IP addresses and show the binary format. Set -v before for verbose mode
-example: 
-        yp 10.10.10.1 14.15.15.3 127.0.0.1
-        yp -v 10.10.10.1 14.15.15.3 127.0.0.1
- ```
- 
- 
+yp -h
+
+yp converts ipv4 from bin->dec and vice versa. You can provide as many ips as you want, as args
+ex:
+        yp -b 11111111.11111111.11111111.11111111 11111111.00000000.11111111.00000000 ... [bin->dec]
+        yp -d 255.255.255.255 127.0.0.1 192.168.192.168 ... [dec->bin]
+        yp -v [for verbose output]
+```
